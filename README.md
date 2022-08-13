@@ -7131,7 +7131,7 @@ function library:CreateWindow(options, ...)
 		options = (options and type(options) == "string" and resolvevararg("Tab", options, ...)) or options
 		assert(shared.bypasstablimit or (library.Designer == nil), "Designer already exists")
 		options = options or {}
-		options.Image = options.Image or 6073763717
+		options.Image = options.Image or 7483871523
 		options.LastTab = true
 		local designer = windowFunctions:CreateTab(options)
 		local colorsection = designer:CreateSection({
@@ -7181,9 +7181,9 @@ function library:CreateWindow(options, ...)
 		}
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
-			Placeholder = "rbxassetid://4427304036",
+			Placeholder = "rbxassetid://6073763717",
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "rbxassetid://4427304036",
+			Value = "rbxassetid://6073763717",
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
@@ -7302,7 +7302,7 @@ function library:CreateWindow(options, ...)
 		end
 		if options.Credit ~= false then
 			daaata[1 + #daaata] = {"AddLabel", "__Designer.Label.Creator", detailssection, {
-				Text = "xnoneshop.store"
+				Text = "Web : xnoneshop.store"
 			}}
 		elseif "xnoneshop.store" then
 		end
