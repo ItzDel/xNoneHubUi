@@ -7194,7 +7194,7 @@ function library:CreateWindow(options, ...)
 		}}, {"AddSlider", "__Designer.Slider.ImageTransparency", backgroundsection, {
 			Name = "Image Transparency",
 			Flag = "__Designer.Background.ImageTransparency",
-			Value = 10,
+			Value = 90,
 			Min = 0,
 			Max = 100,
 			Format = "Image Transparency: %s%%",
